@@ -1,8 +1,6 @@
 FROM ubuntu
 
 ENV VERSION=1.4.3
-ENV http_proxy http://127.0.0.1:8080
-ENV https_proxy http://127.0.0.1:8080
 
 RUN apt-get update && \
     apt-get install -y \
